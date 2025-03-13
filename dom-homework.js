@@ -34,3 +34,7 @@ button.addEventListener('click', function() {
     newitem.style.color = '#'+Math. floor(Math. random()*16777215). toString(16);
     ul.appendChild(newitem);
 })
+
+div.addEventListener('click', function() {
+    div.style.backgroundColor = '#'+Math. floor(Math. random()*16777215). toString(16);
+})
